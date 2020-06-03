@@ -193,7 +193,7 @@ it is zero, so it will execute
 the `else` block, so it prints `i is 0`.
 
 ***
-After this, you can now easily grasps the idea
+After this, you can now easily grasp the idea
 of loops, where it automates things for you.
 
 ***
