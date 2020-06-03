@@ -91,7 +91,7 @@ is called **dereferencing**.
 ```
 
 ***
-There are several benefits from using points, one
+There are several benefits of using pointers, one
 is passing function arguments by reference, which
 is illustrated in the `functions.c` example. 
 
