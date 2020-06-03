@@ -18,20 +18,20 @@ int main()
 {
 
   int i = 1;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 
   i = 123;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 
   i = -321;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 
   i = 0;
   if ( i ) {
-     printf("i is true with a value of: %d\n",i);
+     printf("i is true with a value of: %d\n", i);
   }
   else {
-     printf("i is false with a value of: %d\n",i);
+     printf("i is false with a value of: %d\n", i);
   }
 
   int y = 26;
@@ -91,7 +91,7 @@ with a value of 1:
 
 ```
   int i = 1;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 ```
 
 ***
@@ -100,7 +100,7 @@ it is not zero, it is 123.
 
 ```
   i = 123;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 ```
 
 ***
@@ -109,7 +109,7 @@ still `TRUE`: it is not zero, it is -321.
  
 ```  
   i = -321;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 ```
 
 ***
@@ -118,10 +118,10 @@ This will result to `FALSE` because `i` is now zero.
 ```
   i = 0;
   if ( i ) {
-     printf("i is true with a value of: %d\n",i);
+     printf("i is true with a value of: %d\n", i);
   }
   else {
-     printf("i is false with a value of: %d\n",i);
+     printf("i is false with a value of: %d\n", i);
   }
 ```
 

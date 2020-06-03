@@ -4,20 +4,20 @@ int main()
 {
 
   int i = 1;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 
   i = 123;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 
   i = -321;
-  if ( i ) printf("i is true with a value of: %d\n",i);
+  if ( i ) printf("i is true with a value of: %d\n", i);
 
   i = 0;
   if ( i ) {
-     printf("i is true with a value of: %d\n",i);
+     printf("i is true with a value of: %d\n", i);
   }
   else {
-     printf("i is false with a value of: %d\n",i);
+     printf("i is false with a value of: %d\n", i);
   }
 
   int y = 26;
