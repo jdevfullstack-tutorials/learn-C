@@ -125,8 +125,8 @@ variables of the same type can be passed to
 these functions instantly when needed.
 
 #### Parameters? Arguments?
-First of all, we need to distinguish the two
-as they seem to be used interchangeably.
+First of all, we need to distinguish the two for you not to
+be confused.
 
 When declaring a function,
 the term is **parameter**.
