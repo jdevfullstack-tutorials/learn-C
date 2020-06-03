@@ -19,7 +19,7 @@ void printFunctionTest()
    printf("This function 'printFunctionTest()' only prints, nothing else.\n");
 }
 
-float mySimpleFuncByValue(int iloc,float xloc)
+float mySimpleFuncByValue(int iloc, float xloc)
 {
 
    iloc += 101;
@@ -31,7 +31,7 @@ float mySimpleFuncByValue(int iloc,float xloc)
 
 }
 
-float mySimpleFuncByReference(int *iPtr,float *xPtr)
+float mySimpleFuncByReference(int *iPtr, float *xPtr)
 {
 
    *iPtr += 101;
@@ -63,18 +63,18 @@ int main()
    int i = 22;
    float x = 234.23;
 
-   float y = mySimpleFuncByValue(i,x);
-   printf("i: %d x: %10.5f y: %10.5f\n",i,x,y);   
+   float y = mySimpleFuncByValue(i, x);
+   printf("i: %d x: %10.5f y: %10.5f\n", i, x, y);   
 
-   y = mySimpleFuncByReference(&i,&x);
-   printf("i: %d x: %10.5f y: %10.5f\n",i,x,y);   
+   y = mySimpleFuncByReference(&i, &x);
+   printf("i: %d x: %10.5f y: %10.5f\n", i, x, y);   
 	
    int myArray[2] = { 0, 0 };
-   printf("Before function call, myArray[0]: %d myArray[1]: %d\n",myArray[0],myArray[1]);
+   printf("Before function call, myArray[0]: %d myArray[1]: %d\n", myArray[0], myArray[1]);
    
    printf("array mem address: %d\n", myArray);
    modifyArray(myArray);
-   printf("After function call, myArray[0]: %d myArray[1]: %d\n",myArray[0],myArray[1]);
+   printf("After function call, myArray[0]: %d myArray[1]: %d\n", myArray[0], myArray[1]);
 
    return 0;
 
@@ -157,7 +157,7 @@ with parameters `int iloc`, `float xloc`
 and a return value named `yloc`.
 
 ```
-float mySimpleFuncByValue(int iloc,float xloc)
+float mySimpleFuncByValue(int iloc, float xloc)
 {
 
    iloc += 101;
@@ -191,7 +191,7 @@ and `yloc` is a float, we need to **cast**
 Now, in main function, 
 `i` and `x` are both passed by value,
 meaning a copy of each of these variables
-is passed to `mySimpleFuncByValue(int iloc,float xloc)`.
+is passed to `mySimpleFuncByValue(int iloc, float xloc)`.
 So, any changes made in 
 this function will not reflect
 outside this function.
@@ -200,8 +200,8 @@ outside this function.
    int i = 22;
    float x = 234.23;
 
-   float y = mySimpleFuncByValue(i,x);
-   printf("i: %d x: %10.5f y: %10.5f\n",i,x,y);
+   float y = mySimpleFuncByValue(i, x);
+   printf("i: %d x: %10.5f y: %10.5f\n", i, x, y);
 ```
 
 ***
@@ -211,7 +211,7 @@ with pointers as the parameters:
 `int *iPtr`, `float *xPtr`.
 
 ```
-float mySimpleFuncByReference(int *iPtr,float *xPtr)
+float mySimpleFuncByReference(int *iPtr, float *xPtr)
 {
 
    *iPtr += 101;
@@ -238,7 +238,7 @@ this function terminates. That's the reason why,
 when you call the second `print` command,
 
 ```
-   printf("i: %d x: %10.5f y: %10.5f\n",i,x,y);
+   printf("i: %d x: %10.5f y: %10.5f\n", i, x, y);
 ```
 
 `i` now contains the value of 123 and `x` contains
@@ -249,7 +249,7 @@ memory addresses can be inserted as an argument
 for this function, like this:  
 
 ```
-mySimpleFuncByReference(&i,&x)
+mySimpleFuncByReference(&i, &x)
 ```
 
 That is the essence of
@@ -287,9 +287,9 @@ using only the memory address of an array.
 
 ```
    int myArray[2] = { 0, 0 };
-   printf("Before function call, myArray[0]: %d myArray[1]: %d\n",myArray[0],myArray[1]);
+   printf("Before function call, myArray[0]: %d myArray[1]: %d\n", myArray[0], myArray[1]);
    modifyArray(myArray);   
-   printf("After function call, myArray[0]: %d myArray[1]: %d\n",myArray[0],myArray[1]);
+   printf("After function call, myArray[0]: %d myArray[1]: %d\n", myArray[0], myArray[1]);
 ``` 
 
 So, pointers are truly essential to be an excellent C programmer.
