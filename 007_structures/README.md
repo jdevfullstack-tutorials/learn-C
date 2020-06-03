@@ -225,7 +225,7 @@ to mix different data types in one declaration. Every member
 can be accessed easily. In general, **data structure** is data that
 can be accessed piece by piece. For example, an XML file is
 considered semi-structured, for elements can be parsed but from
-top to bottom while a database is a structured data,
+top to bottom while a database file is a structured data,
 for pieces of information can be accessed randomly without parsing
 the entire database.
 
