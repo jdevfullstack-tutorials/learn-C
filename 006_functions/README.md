@@ -106,7 +106,7 @@ that function.
 
 In our case here, when `printFunctionTest()` function is called
 in main function, the computer is tasked to look
-for the declaration of this function. It was declared,
+for the declaration of this function. It was declared then defined,
 so when the computer finds it, will execute everything in
 that function.
 
