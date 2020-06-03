@@ -21,21 +21,21 @@ int main()
 
    int i;
    int x[n];
-   for ( i=0; i<n ; i++ ) {
+   for ( i=0; i<n; i++ ) {
       x[i] = i * 10;
-      printf("i: %d x[i]: %d\n",i,x[i]);
+      printf("i: %d x[i]: %d\n", i, x[i]);
    }
   
    int y = 0;
    while ( y < 100 ) {
       y += 12;
-      printf("y: %d\n",y);
+      printf("y: %d\n", y);
    }
 
    y = 0;
    do {
       y += 12;
-      printf("y: %d\n",y);
+      printf("y: %d\n", y);
    }
    while ( y < 100 );
 
@@ -56,9 +56,9 @@ We will use `i` as an index within `for` loop:
 ```
   int i;
    int x[n];
-   for ( i=0; i<n ; i++ ) {
+   for ( i=0; i<n; i++ ) {
       x[i] = i * 10;
-      printf("i: %d x[i]: %d\n",i,x[i]);
+      printf("i: %d x[i]: %d\n", i, x[i]);
    }
 ```
 
@@ -77,7 +77,7 @@ it stops looping because
    int y = 0;
    while ( y < 100 ) {
       y += 12;
-      printf("y: %d\n",y);
+      printf("y: %d\n", y);
    }
 ```
 
@@ -98,7 +98,7 @@ of a condition, *at least once*.
    y = 0;
    do {
       y += 12;
-      printf("y: %d\n",y);
+      printf("y: %d\n", y);
    }
    while ( y < 100 );   
 ```
