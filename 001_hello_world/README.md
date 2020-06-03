@@ -80,7 +80,7 @@ This line calls a function called `printf`:
 printf("Hello World!\n");
 ```
 
-and passes a `Hello World!` string, along
+and passes a "Hello World!" string, along
 with a special end of line character `\n`.
 A semi-colon `;` is required at the end of 
 each line. Take note, free-form languages just like C
