@@ -27,11 +27,11 @@ void printStruct( student oneStudent )
    int i;
 
    printf("=====================\n");
-   printf("Student name: %s\n",oneStudent.name);
-   printf("        age: %d\n",oneStudent.age);
-   printf("        height: %6.3f\n",oneStudent.height);
+   printf("Student name: %s\n", oneStudent.name);
+   printf("        age: %d\n", oneStudent.age);
+   printf("        height: %6.3f\n", oneStudent.height);
    printf("        grades: ");
-   for (i=0; i<10; i++) printf("%4.1f ",oneStudent.grades[i]);
+   for (i=0; i<10; i++) printf("%4.1f ", oneStudent.grades[i]);
    printf("\n");
    printf("=====================\n");
 
@@ -54,7 +54,7 @@ int main()
    Nikki.age = 19;
    Nikki.height = 64.75;
    int i;
-   for (i=0; i<10 ; i++) {
+   for (i=0; i<10; i++) {
       Nikki.grades[i] = 98.0;
    }
 
@@ -125,11 +125,11 @@ void printStruct( student oneStudent )
    int i;
 
    printf("=====================\n");
-   printf("Student name: %s\n",oneStudent.name);
-   printf("        age: %d\n",oneStudent.age);
-   printf("        height: %6.3f\n",oneStudent.height);
+   printf("Student name: %s\n", oneStudent.name);
+   printf("        age: %d\n", oneStudent.age);
+   printf("        height: %6.3f\n", oneStudent.height);
    printf("        grades: ");
-   for (i=0; i<10; i++) printf("%4.1f ",oneStudent.grades[i]);
+   for (i=0; i<10; i++) printf("%4.1f ", oneStudent.grades[i]);
    printf("\n");
    printf("=====================\n");
 
