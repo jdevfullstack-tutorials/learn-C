@@ -80,10 +80,14 @@ This line calls a function called `printf`:
 printf("Hello World!\n");
 ```
 
-and passes a "Hello World!" string, along
+and passes a `Hello World!` string, along
 with a special end of line character `\n`.
 A semi-colon `;` is required at the end of 
-each line.
+each line. Take note, free-form languages just like C
+does not terminate a command by simply pressing
+`enter` or `return` to create a newline, it will
+still look for the semicolon as the indicator that
+a command is ended.
 
 `printf` is actually printing output to `stdout`.
 This topic is quite complex for this introduction,
