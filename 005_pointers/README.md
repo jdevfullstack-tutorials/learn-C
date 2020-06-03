@@ -22,15 +22,15 @@ int main()
   int *iPtr;
   iPtr = &i;
 
-  printf("Memory address of i: %p\n",&i);
-  printf("iPtr: %p\n",iPtr);
-  printf("But, iPtr has its own address: %p\n",&iPtr);
+  printf("Memory address of i: %p\n", &i);
+  printf("iPtr: %p\n", iPtr);
+  printf("But, iPtr has its own address: %p\n", &iPtr);
   
   printf("Getting the value the pointer points to using * :\n");
-  printf("i = %d, *iPtr = %d\n",i,*iPtr);
+  printf("i = %d, *iPtr = %d\n", i, *iPtr);
   printf("Changing the value directly using a pointer:\n"); 
   *iPtr = 2;
-  printf("After using \"*iPtr = 2;\", i is now %d\n",i);
+  printf("After using \"*iPtr = 2;\", i is now %d\n", i);
 
   return 0;
 
@@ -66,9 +66,9 @@ A pointer is a variable that contains memory address. But that
 pointer has its own memory address too.
 
 ```
-  printf("Memory address of i: %p\n",&i);
-  printf("iPtr: %p\n",iPtr);
-  printf("But, iPtr has its own address: %p\n",&iPtr);
+  printf("Memory address of i: %p\n", &i);
+  printf("iPtr: %p\n", iPtr);
+  printf("But, iPtr has its own address: %p\n", &iPtr);
 ```  
 
 ***
@@ -87,7 +87,7 @@ in our case here, `*iPtr`. This
 is called **dereferencing**.
 
 ```
-  printf("i: %d, *iPtr: %d\n",i,*iPtr);
+  printf("i: %d, *iPtr: %d\n", i, *iPtr);
 ```
 
 ***
@@ -100,7 +100,7 @@ stored in a memory location:
 
 ```
   *iPtr = 2;
-  printf("After using \"*iPtr = 2;\", i is now %d\n",i);
+  printf("After using \"*iPtr = 2;\", i is now %d\n", i);
 ```
 
 ***
