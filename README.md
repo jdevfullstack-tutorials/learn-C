@@ -239,6 +239,7 @@ Technology companies usually offer their own compilers.
 They created them
 according to their own designs, 
 to satisfy their needs or maybe to topple every business competitor.
+Yes!
 
 License
 ----
