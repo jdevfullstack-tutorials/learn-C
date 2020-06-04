@@ -76,7 +76,7 @@ initialize an allocatable array of size `n`.
 By standard definition,
 `malloc()` returns a pointer to a chunk 
 of memory of size *size*, or NULL if there is an error. 
-The memory pointed to will be on the heap, not the stack, 
+The memory pointed to will be on the heap, not on the stack, 
 so make sure to free it when you are done with it.
 
 In our case here,
