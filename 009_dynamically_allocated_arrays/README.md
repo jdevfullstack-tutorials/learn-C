@@ -36,7 +36,7 @@ int main(int argc, char **argv)
    int i;
    for ( i=0; i<n ; i++ ) { 
       myDynamicArray[i] = i * 9;
-      printf("i: %d, myDynamicArray[i]: %d\n",i,myDynamicArray[i]);
+      printf("i: %d, myDynamicArray[i]: %d\n", i, myDynamicArray[i]);
    }
 
    free(myDynamicArray);
@@ -109,7 +109,7 @@ other "normal" array:
    int i;
    for ( i=0; i<n ; i++ ) { 
       myDynamicArray[i] = i * 9;
-      printf("i: %d, myDynamicArray[i]: %d\n",i,myDynamicArray[i]);
+      printf("i: %d, myDynamicArray[i]: %d\n", i, myDynamicArray[i]);
    }
 ```
 
