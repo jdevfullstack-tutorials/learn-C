@@ -8,8 +8,8 @@
   gtag('config', 'UA-146817309-1');
 </script>
 
-C Programming Tutorial
-======================
+# C Programming Tutorial
+
 Thanks for visiting! 
 
 We prepared a detailed 
