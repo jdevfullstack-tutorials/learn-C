@@ -111,7 +111,7 @@ Then, writing data to this file and closing it after:
 
 ```
    for ( i=0 ; i < 50 ; i++ ) {
-      fprintf(fp_out,"%d %d\n",i,i*10);
+      fprintf(fp_out,"%d %d\n", i, i*10);
    } 
    fclose(fp_out);
 ```
