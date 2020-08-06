@@ -29,7 +29,7 @@ The source codes that were mentioned
 in this tutorial can be downloaded from 
 this repository:
 
-<https://github.com/mongAlvarez/C-Language-Tutorial>
+<https://github.com/xdvrx1/C-Language-Tutorial>
 
 or by clicking the `View on GitHub` button.
 
