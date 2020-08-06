@@ -95,7 +95,7 @@ After this, you can study a good example
 how these things are being applied 
 in software development:
 
-<https://github.com/mongAlvarez/CalC>
+<https://github.com/xkcph2017x/CalC>
 
 Although not all the topics here were covered,
 but you can easily
