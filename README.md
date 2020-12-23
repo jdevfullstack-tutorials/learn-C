@@ -23,9 +23,6 @@ Much more, we are willing to collaborate and communicate!
 This is all about learning C, so we might not be
 able to put every information, but we are willing
 to answer your queries.
-You can ask questions through email:
-
-<mongAlvarez@gmail.com>
 
 The source codes that were mentioned 
 in this tutorial can be downloaded from 
