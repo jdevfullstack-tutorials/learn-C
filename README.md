@@ -14,16 +14,16 @@
 
 Table Of Contents
 1. [Intro](#intro)
-2. [INTRO TO C](#introduction-to-c)
-3. [DATA TYPES](#data-types)
-4. [FLOW CONTROL](#flow-control)
-5. [LOOPS](#loops)
-6. [POINTERS](#pointers)
-7. [FUNCTIONS](#functions)
-8. [STRUCTURES](#structure-in-c)
-9. [COMMAND LINE ARGUMENTS](#command-line-arguments)
-10. [DYNAMICALLY ALLOCATED ARRAYS](#dynamic-memory-allocation-using-arrays)
-11. [FILE IO](#file-input-output)
+2. [Intro To C](#introduction-to-c)
+3. [Data Types](#data-types)
+4. [Flow Control](#flow-control)
+5. [Loops](#loops)
+6. [Pointers](#pointers)
+7. [Functions](#functions)
+8. [Structures](#structure-in-c)
+9. [Command Line Arguments](#command-line-arguments)
+10. [Dynamically Allocated Arrays](#dynamic-memory-allocation-using-arrays)
+11. [File Input Output](#file-input-output)
 
 ## Intro
 After this, you can study a good example
