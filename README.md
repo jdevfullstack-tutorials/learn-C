@@ -13,19 +13,19 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxdvrx1%2FC-Language-Tutorial&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=PAGE+VIEWS&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Table Of Contents
-1. [INTRO TO C]()
-2. [DATA TYPES]()
-3. [FLOW CONTROL]()
-4. [LOOPS]()
-5. [POINTERS]()
-6. [FUNCTIONS]()
-7. [STRUCTURES]()
-8. [COMMAND LINE ARGUMENTS]()
-9. [DYNAMICALLY ALLOCATED ARRAYS]()
-10. [FILE IO]()
+1. [Intro]
+2. [INTRO TO C]()
+3. [DATA TYPES]()
+4. [FLOW CONTROL]()
+5. [LOOPS]()
+6. [POINTERS]()
+7. [FUNCTIONS]()
+8. [STRUCTURES]()
+9. [COMMAND LINE ARGUMENTS]()
+10. [DYNAMICALLY ALLOCATED ARRAYS]()
+11. [FILE IO]()
 
-***
-
+## Intro
 After this, you can study a good example
 how these things are being applied 
 in software development:
@@ -75,7 +75,7 @@ but you can easily
 grasp the idea because of this tutorial. 
 Enjoy life full of coding projects!
 
-## Why C language?
+### Why C language?
 It's very important to understand why C language
 is there and why it is not obsolete, as others 
 believe. 
@@ -119,9 +119,7 @@ learning C will provide a solid background
 because most of the programming languages
 adopted concepts from it.
 
-Building and Running Executables
---------------------
-
+### Building and Running Executables
 When using MinGW in Windows OS,
 in the Command Prompt,
 change the directory to where you put 
@@ -185,16 +183,12 @@ this tool will automate things for you, particularly,
 in large projects to avoid errors and build
 the software with ease.
 
-Windows OS
------
-
+### Windows OS
 In Windows OS, it is best to use MinGW C compiler.
 Please refer to <http://www.mingw.org/> for
 full documentation.
 
-Compiler
-----
-
+### Compiler
 Compiler is a software that takes the job
 of translating source codes into machine language,
 one way or the other.
@@ -213,17 +207,15 @@ They created them
 according to their own designs, 
 to satisfy their needs or maybe to topple every business competitor.
 
-License
-----
-
+### License
 ACCRE licensed this repo under MIT. 
 
 Mong Alvarez Jr. included that license and
 the changes he made were also licensed under MIT.
 
-# INTRODUCTION TO C
-## Source Code
 
+## INTRODUCTION TO C
+### Source Code
 ```
 #include <stdio.h> 
 
@@ -236,14 +228,11 @@ return 0;
 
 }
 ```
-
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
-### Including Files
+### Details
+#### Including Files
 In C, including files are common, just like
 in our example:
 
@@ -261,8 +250,7 @@ Separating one big source code into small ones is a good practice
 in software development. Specific parts can be located easily.
 The logic among them can be inferred without much hassle.
 
-***
-### The Main Function
+#### The Main Function
 This defines a function called `main`:
 
 ```
@@ -285,8 +273,7 @@ I tend to use spaces to make blocks
 of code more readable, you can also
 use tabs.
 
-***
-### Outputting Results
+#### Outputting Results
 This line calls a function called `printf`:
 
 ```
@@ -308,8 +295,7 @@ but in basic terms, `printf` is one way to output
 something. Much of the
 hidden process is happening in the processor.
  
-***
-### Returning Status
+#### Returning Status
 Again, the return type for the main
 function is an integer.
 
@@ -325,9 +311,8 @@ include this line at all. You might get
 a warning from the compiler but the program
 will compile and run normally.
 
-# DATA TYPES
-## Source Code
-
+## DATA TYPES
+### Source Code
 ```
 #include <stdio.h>
 
@@ -366,13 +351,11 @@ int main()
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
-### Data Types and Compiler
+### Details
+#### Data Types and Compiler
 Data types are very important in a programming language.
 In basic terms, they tell how data
 should be treated by the compiler.
@@ -435,9 +418,8 @@ Declare a 100-element array of single-precision floating point numbers:
 
 	float farray[100];
 	
-# FLOW CONTROL
-## Source Code
-
+## FLOW CONTROL
+### Source Code
 ```
 #include <stdio.h>
 
@@ -495,13 +477,11 @@ int main()
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
-### True? False?	
+### Details
+#### True? False?	
 We stick first to conditional statements,
 because this can alter the execution
 of the program by making decisions
@@ -552,8 +532,7 @@ This will result to `FALSE` because `i` is now zero.
   }
 ```
 
-***
-### if-else 
+#### if-else 
 Note that in a large `if-else` block like the one
 below, program flow jumps out of the block after
 the first match is found. Its contents are 
@@ -588,8 +567,7 @@ seeking for the other matches.
 This is why `Condition 5 is met!` is not
 printed.
 
-***
-### Nesting Multiple if and if-else Statements
+#### Nesting Multiple if and if-else Statements
 Nested `if` and `if-else` blocks are also allowed:
 
 ```
@@ -619,13 +597,11 @@ but according to the last value of `i`,
 it is zero, so it will execute
 the `else` block, so it prints `i is 0`.
 
-***
 After this, you can now easily grasp the idea
 of loops, where it automates things for you.	
 
-# LOOPS
-## Source Code
-
+## LOOPS
+### Source Code
 ```
 #include <stdio.h>
 
@@ -659,13 +635,11 @@ int main()
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
-### for Loop
+### Details
+#### for Loop
 We will use `i` as an index within `for` loop:
 
 ```
@@ -685,7 +659,7 @@ it stops looping because
 `i < n` evaluates to false. Then, this `for` loop is done.
 
 ***
-### while Loop
+#### while Loop
 `while` loop is useful in certain situations as well:
 
 ```
@@ -703,8 +677,7 @@ may not execute the commands at all.
 
 But in the example here, `while` loop succeeded. 
 
-***
-### do-while Loop
+#### do-while Loop
 `do-while` loop is used instead of `while` loop
 if you want the code block executed before evaluation
 of a condition, *at least once*.
@@ -727,9 +700,8 @@ is that, in the given condition, `y` should be
 less than 100 to continue looping
 or else it should stop looping. Then why these loops ended at 108?
 
-# POINTERS
-## Source Code
-
+## POINTERS
+### Source Code
 ```
 #include <stdio.h>
 
@@ -756,13 +728,11 @@ int main()
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
-### Pointers
+### Details
+#### Pointers
 A normal integer is declared like the one below.
 This assigns a piece of memory for `i`,
 and stores the value 1 in this memory.
@@ -790,8 +760,7 @@ pointer has its own memory address too.
   printf("But, iPtr has its own address: %p\n", &iPtr);
 ```  
 
-***
-#### Referencing and Dereferencing
+##### Referencing and Dereferencing
 You can **reference** a variable's memory using the `&` symbol.
 Then, after getting that memory address, you can store it in 
 a pointer variable, in our case here, it is `iPtr`.
@@ -822,9 +791,8 @@ stored in a memory location:
   printf("After using \"*iPtr = 2;\", i is now %d\n", i);
 ```
 
-# FUNCTIONS
-## Source Code
-
+## FUNCTIONS
+### Source Code
 ```
 #include <stdio.h>
 
@@ -899,9 +867,8 @@ int main()
 ## Result
 ![result.png](result.png)
 
-***
-## Details
-### Void Function
+### Details
+#### Void Function
 A declaration of a void function:
 ```
 void printFunctionTest()
@@ -929,8 +896,7 @@ a source code, maybe in another external library
 with the `include` command. As was mentioned,
 this is a good practice in software development.
 
-***
-### Function with Arguments and Return Values
+#### Function with Arguments and Return Values
 Parameters will enable you to pass variables
 of the same type or even pointers, to be processed inside that
 function. Why not just directly do that inside a 
@@ -938,7 +904,7 @@ function? One main reason is reusability. Other
 variables of the same type can be passed to
 these functions instantly when needed.
 
-#### Parameters? Arguments?
+##### Parameters? Arguments?
 First of all, we need to distinguish the two for you not to
 be confused.
 
@@ -953,7 +919,7 @@ So, you say: "I want to declare a function with two
 parameters of integer type, then in main function,
 I will insert `x` and `y` variables as arguments."
 
-#### Return Value
+##### Return Value
 Suppose you need to
 calculate the distance travelled from the input
 of the distance sensor and you want to get that distance value,
@@ -991,8 +957,7 @@ called outside this function. Also, do not be
 confused of the `*` in `iloc * xloc`:
 it's a multiplication operator in this context.
 
-#### Type Casting
-
+##### Type Casting
 ```
 float yloc = (float)iloc * xloc
 ```
@@ -1018,8 +983,7 @@ outside this function.
    printf("i: %d x: %10.5f y: %10.5f\n", i, x, y);
 ```
 
-***
-### Function with Pointers as Parameters
+#### Function with Pointers as Parameters
 Another declaration of a function
 with pointers as the parameters:
 `int *iPtr`, `float *xPtr`.
@@ -1070,7 +1034,7 @@ That is the essence of
 parameter/s of pointer type. You can easily manage
 variables and their contents.
 
-#### Passing Pointer for Arrays
+##### Passing Pointer for Arrays
 Another instance of passing pointers to function is
 as follows:
 
@@ -1108,8 +1072,8 @@ using only the memory address of an array.
 
 So, pointers are truly essential to be an excellent C programmer.
 
-# STRUCTURE IN C
-## Source Code
+## STRUCTURE IN C
+### Source Code
 
 ```
 #include <stdio.h>
@@ -1168,15 +1132,11 @@ int main()
 }
 ```
 
-***
-## Result
-
+### Result
 ![result](result.png)
 
-***
-
-## Details
-### Structure Data Type
+### Details
+#### Structure Data Type
 This is an example of 
 a structure in C:
 
@@ -1199,19 +1159,19 @@ Structure is a user-defined
 data type in C. It is really needed to
 mix different data types in one declaration.
 
-#### typedef 
+##### typedef 
 `typedef` is a keyword which will enable
 you to give an existing type a new name. 
 In our case here, it is just like saying:
 "Let us define this structure by 
 calling `student`."
 
-#### Structure Variable
+##### Structure Variable
 `student` is a structure
 variable that can access the members of
 this structure.
 
-#### Member Access Operator
+##### Member Access Operator
 In order to access a member of an
 structure we use `.` symbol, just like
 `oneStudent.name`.
@@ -1249,7 +1209,6 @@ you want to pad those numbers with zero.
 In the case of `%6.3f`, it means, format the floating 
 type number 6 digit wide, 3 decimal places.
 
-***
 A function to modify the structure:
 
 ```
@@ -1278,7 +1237,6 @@ And what does it do?
 `oneStudent->grades[0] = 72.0` is equivalent to
 `(*oneStudent).grades[0] = 72.0`.
 
-***
 In main function, `student`
 data type is used: `student Nikki`
 is just like any other variable
@@ -1338,10 +1296,8 @@ It is commonly built upon a filesystem.
 Data will persist after the computer is turned off because data
 resides on persistent storage.
 
-# COMMAND LINE ARGUMENTS
-
-## Source Code
-
+## COMMAND LINE ARGUMENTS
+### Source Code
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -1375,12 +1331,10 @@ int main(int argc, char **argv)
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
+### Details
 `#include <stdio.h>`, as we all know, is for `printf`.
 `#include <stdlib.h>` is for `atoi` and `atof`.
 
@@ -1390,7 +1344,7 @@ an integer and returns that integer.
 `atof()` converts string into a double, 
 then returns that value.
 
-### argc
+#### argc
 `argc` captures the number of command line arguments.
 
 ```      
@@ -1411,7 +1365,7 @@ executable file. This is inside the `if` block so as to make
 sure there will be three arguments inserted or else
 the user will be instructed to supply three arguments.  
 
-### argv 
+#### argv 
 `argv` captures each argument in an array of characters.
 Here, we loop over all arguments and print the value:
 
@@ -1422,7 +1376,7 @@ Here, we loop over all arguments and print the value:
    }
 ```
 
-### atoi and atof
+#### atoi and atof
 Since command line arguments are read in as an 
 array of characters, they must be converted
 to the appropriate type (e.g. int, float),
@@ -1465,10 +1419,8 @@ will result to true and `myarg_float` will get the value
 from the third argument, that is at index 2, which is a float. 
 Conversion will be done through `atof`.
 
-# DYNAMIC MEMORY ALLOCATION USING ARRAYS
-
-## Source Code
-
+## DYNAMIC MEMORY ALLOCATION USING ARRAYS
+### Source Code
 ```
 #include <stdio.h> // printf()
 #include <stdlib.h> // exit(), atoi(), atof()
@@ -1502,12 +1454,10 @@ int main(int argc, char **argv)
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
+### Details
 Sometimes you can't predict the size
 of an array at compile time, or you need
 to grow or shrink the size of an array.
@@ -1529,7 +1479,7 @@ argument, the size of an array:
 Then,
 initialize an allocatable array of size `n`.
 
-### malloc()
+#### malloc()
 By standard definition,
 `malloc()` returns a pointer to a chunk 
 of memory of size *size*, or NULL if there is an error. 
@@ -1578,10 +1528,8 @@ Failure to do so can lead to memory leaks.
    free(myDynamicArray);
 ```
 
-# FILE INPUT/OUTPUT
-
-## Source Code
-
+## FILE INPUT/OUTPUT
+### Source Code
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -1622,13 +1570,11 @@ int main()
 }
 ```
 
-***
-## Result
+### Result
 ![result](result.png)
 
-***
-## Details
-### Reading from a File
+### Details
+#### Reading from a File
 An example of reading from a file:
 
 ```
@@ -1660,7 +1606,7 @@ And finally, getting the contents of that file through
    fclose(fp_in);
 ```
 
-### Writing to a File
+#### Writing to a File
 Now, an example of writing to a file:
 
 ```
@@ -1685,7 +1631,7 @@ Then, writing data to this file and closing it after:
    } 
    fclose(fp_out);
 ```
-***
+
 You have reached the end of this tutorial, 
 and we are glad you did. Not all the 
 topics were covered here but the important
