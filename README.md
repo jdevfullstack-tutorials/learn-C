@@ -13,17 +13,17 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxdvrx1%2FC-Language-Tutorial&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=PAGE+VIEWS&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Table Of Contents
-1. [Intro]
-2. [INTRO TO C]()
-3. [DATA TYPES]()
-4. [FLOW CONTROL]()
-5. [LOOPS]()
-6. [POINTERS]()
-7. [FUNCTIONS]()
-8. [STRUCTURES]()
-9. [COMMAND LINE ARGUMENTS]()
-10. [DYNAMICALLY ALLOCATED ARRAYS]()
-11. [FILE IO]()
+1. [Intro](#intro)
+2. [INTRO TO C](#introduction-to-c)
+3. [DATA TYPES](#data-types)
+4. [FLOW CONTROL](#flow-control)
+5. [LOOPS](#loops)
+6. [POINTERS](#pointers)
+7. [FUNCTIONS](#functions)
+8. [STRUCTURES](#structure-in-c)
+9. [COMMAND LINE ARGUMENTS](#command-line-arguments)
+10. [DYNAMICALLY ALLOCATED ARRAYS](#dynamic-memory-allocation-using-arrays)
+11. [FILE IO](#file-input-output)
 
 ## Intro
 After this, you can study a good example
@@ -1528,7 +1528,7 @@ Failure to do so can lead to memory leaks.
    free(myDynamicArray);
 ```
 
-## FILE INPUT/OUTPUT
+## FILE INPUT OUTPUT
 ### Source Code
 ```
 #include <stdio.h>
