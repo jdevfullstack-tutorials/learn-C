@@ -1716,6 +1716,6 @@ To demonstrate how C is used in writing
 computer programs, please visit this
 repository:
 
-<https://github.com/mongAlvarez/CalC>
+<https://github.com/xdvrx1/CalC>
 
 Thanks a lot!
