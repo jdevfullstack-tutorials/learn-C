@@ -12,6 +12,26 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxdvrx1%2FC-Language-Tutorial&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=PAGE+VIEWS&edge_flat=false)](https://hits.seeyoufarm.com)
 
+Table Of Contents
+1. [INTRO TO C]()
+2. [DATA TYPES]()
+3. [FLOW CONTROL]()
+4. [LOOPS]()
+5. [POINTERS]()
+6. [FUNCTIONS]()
+7. [STRUCTURES]()
+8. [COMMAND LINE ARGUMENTS]()
+9. [DYNAMICALLY ALLOCATED ARRAYS]()
+10. [FILE IO]()
+
+***
+
+After this, you can study a good example
+how these things are being applied 
+in software development:
+
+<https://github.com/xkcph2017x/CalC>
+
 Thanks for visiting! 
 
 We prepared a detailed 
@@ -48,53 +68,7 @@ so why not start exploring now. It's worth it. This is the link:
 
 <https://github.com/join>
 
-Topics
------
-[![INTRO TO C](screenshots/picture.png)](001_hello_world/)
 
-***
-
-[![DATA TYPES](screenshots/Picture2.png)](002_variable_types/)
-
-***
-
-[![FLOW CONTROL](screenshots/Picture3.png)](003_flow_control/)
-
-***
-
-[![LOOPS](screenshots/Picture4.png)](004_loops/)
-
-***
-
-[![POINTERS](screenshots/Picture5.png)](005_pointers/)
-
-***
-
-[![FUNCTIONS](screenshots/Picture6.png)](006_functions/)
-
-***
-
-[![STRUCTURES](screenshots/Picture7.png)](007_structures/)
-
-***
-
-[![COMMAND LINE ARGUMENTS](screenshots/Picture8.png)](008_pass_command_line_options/)
-
-***
-
-[![DYNAMICALLY ALLOCATED ARRAYS](screenshots/Picture9.png)](009_dynamically_allocated_arrays/)
-
-***
-
-[![FILE IO](screenshots/Picture10.png)](010_file_IO/)
-
-***
-
-After this, you can study a good example
-how these things are being applied 
-in software development:
-
-<https://github.com/xkcph2017x/CalC>
 
 Although not all the topics here were covered,
 but you can easily
@@ -1603,3 +1577,124 @@ Failure to do so can lead to memory leaks.
 ```
    free(myDynamicArray);
 ```
+
+# FILE INPUT/OUTPUT
+
+## Source Code
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   FILE *fp_in;
+   fp_in = fopen("input_file.txt", "r");
+
+   if ( fp_in == NULL ) {
+      printf("input_file.txt not opened, exiting...\n");
+      exit(0);
+   }
+
+   int x, y, z;
+   int i;
+   for (i=0; i<3; i++) {
+      fscanf(fp_in, "%d %d %d", &x, &y, &z);
+      printf("x: %d y: %d z: %d\n", x, y, z);
+   }
+   fclose(fp_in);
+
+   FILE *fp_out;
+   fp_out = fopen("output_file.txt", "w");
+   if ( fp_out == NULL ) {
+      printf("output_file.txt not opened, exiting...\n");
+      exit(0);
+   }
+
+   for ( i=0 ; i < 50 ; i++ ) {
+      fprintf(fp_out, "%d %d\n", i, i*10);
+   } 
+   fclose(fp_out);
+   
+   printf("`output_file.txt` created successfully.\n");
+   
+   return 0;
+}
+```
+
+***
+## Result
+![result](result.png)
+
+***
+## Details
+### Reading from a File
+An example of reading from a file:
+
+```
+   FILE *fp_in;
+   fp_in = fopen("input_file.txt","r");
+```
+
+It is good practice to check whether the file
+was opened successfully. `fopen()` will
+fail if the file does not exist:
+
+```
+   if ( fp_in == NULL ) {
+      printf("input_file.txt not opened, exiting...\n");
+      exit(0);
+   }
+```
+
+And finally, getting the contents of that file through
+`fscanf` and closing it right after reading.
+
+```
+   int x, y, z;
+   int i;
+   for (i=0; i<3; i++) {
+      fscanf(fp_in,"%d %d %d", &x, &y, &z);
+      printf("x: %d y: %d z: %d\n", x, y, z);
+   }
+   fclose(fp_in);
+```
+
+### Writing to a File
+Now, an example of writing to a file:
+
+```
+   FILE *fp_out;
+   fp_out = fopen("output_file.txt", "w");
+```
+
+Then, checking whether it was successfully created:
+
+```
+   if ( fp_out == NULL ) {
+      printf("output_file.txt not opened, exiting...\n");
+      exit(0);
+   }
+```
+
+Then, writing data to this file and closing it after:
+
+```
+   for ( i=0 ; i < 50 ; i++ ) {
+      fprintf(fp_out,"%d %d\n", i, i*10);
+   } 
+   fclose(fp_out);
+```
+***
+You have reached the end of this tutorial, 
+and we are glad you did. Not all the 
+topics were covered here but the important
+thing is you get the idea what C is all about.
+
+To demonstrate how C is used in writing
+computer programs, please visit this
+repository:
+
+<https://github.com/mongAlvarez/CalC>
+
+Thanks a lot!
