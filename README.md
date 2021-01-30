@@ -229,7 +229,9 @@ return 0;
 }
 ```
 ### Result
-![result](result.png)
+```
+Hello World!
+```
 
 ### Details
 #### Including Files
@@ -352,7 +354,17 @@ int main()
 ```
 
 ### Result
-![result](result.png)
+```
+int i: 1
+int j: 12
+const int k: 345
+unsigned int l: 6789
+char myletter[]: myletter
+float x: 1.230000
+double y: 45.678900
+(@index 0) int myarray[0] : 2
+(@index 0) float farray[0] : 0.00
+```
 
 ### Details
 #### Data Types and Compiler
@@ -478,7 +490,14 @@ int main()
 ```
 
 ### Result
-![result](result.png)
+```
+i is true with a value of: 1
+i is true with a value of: 123
+i is true with a value of: -321
+i is false with a value of: 0
+Condition 4 met!
+i is 0
+```
 
 ### Details
 #### True? False?	
@@ -636,7 +655,36 @@ int main()
 ```
 
 ### Result
-![result](result.png)
+```
+i: 0 x[i]: 0
+i: 1 x[i]: 10
+i: 2 x[i]: 20
+i: 3 x[i]: 30
+i: 4 x[i]: 40
+i: 5 x[i]: 50
+i: 6 x[i]: 60
+i: 7 x[i]: 70
+i: 8 x[i]: 80
+i: 9 x[i]: 90
+y: 12
+y: 24
+y: 36
+y: 48
+y: 60
+y: 72
+y: 84
+y: 96
+y: 108
+y: 12
+y: 24
+y: 36
+y: 48
+y: 60
+y: 72
+y: 84
+y: 96
+y: 108
+```
 
 ### Details
 #### for Loop
@@ -729,7 +777,15 @@ int main()
 ```
 
 ### Result
-![result](result.png)
+```
+Memory address of i: 0x7ffce7495e0c
+iPtr: 0x7ffce7495e0c
+But, iPtr has its own address: 0x7ffce7495e10
+Getting the value the pointer points to using * :
+i = 1, *iPtr = 1
+Changing the value directly using a pointer:
+After using "*iPtr = 2;", i is now 2
+```
 
 ### Details
 #### Pointers
@@ -865,7 +921,14 @@ int main()
 
 ***
 ## Result
-![result.png](result.png)
+```
+This function 'printFunctionTest()' only prints, nothing else.
+i: 22 x:  234.23000 y: 420630.25000
+i: 123 x: 3419.75806 y: 420630.25000
+Before function call, myArray[0]: 0 myArray[1]: 0
+array mem address: -214060608
+After function call, myArray[0]: 5 myArray[1]: 12
+```
 
 ### Details
 #### Void Function
@@ -1074,7 +1137,6 @@ So, pointers are truly essential to be an excellent C programmer.
 
 ## STRUCTURE IN C
 ### Source Code
-
 ```
 #include <stdio.h>
 
@@ -1133,7 +1195,20 @@ int main()
 ```
 
 ### Result
-![result](result.png)
+```
+=====================
+Student name: Nikki
+        age: 19
+        height: 64.750
+        grades: 98.0 98.0 98.0 98.0 98.0 98.0 98.0 98.0 98.0 98.0 
+=====================
+=====================
+Student name: Nikki
+        age: 19
+height: 64.750
+        grades: 72.0 98.0 98.0 98.0 81.0 98.0 85.0 98.0 98.0 98.0 
+=====================
+```
 
 ### Details
 #### Structure Data Type
