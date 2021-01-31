@@ -68,8 +68,6 @@ so why not start exploring now. It's worth it. This is the link:
 
 <https://github.com/join>
 
-
-
 Although not all the topics here were covered,
 but you can easily
 grasp the idea because of this tutorial. 
@@ -210,7 +208,7 @@ to satisfy their needs or maybe to topple every business competitor.
 ### License
 ACCRE licensed this repo under MIT. 
 
-Mong Alvarez Jr. included that license and
+xdvrx1 included that license and
 the changes he made were also licensed under MIT.
 
 
