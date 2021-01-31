@@ -12,11 +12,11 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxdvrx1%2FC-Language-Tutorial&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=PAGE+VIEWS&edge_flat=false)](https://hits.seeyoufarm.com)
 
-Table Of Contents
+TOC
 1. [Intro](#intro)
 2. [Intro To C](#introduction-to-c)
 3. [Data Types](#data-types)
-4. [Flow Control](#flow-control)
+4. [Flow Control](#decision-making)
 5. [Loops](#loops)
 6. [Pointers](#pointers)
 7. [Functions](#functions)
@@ -212,7 +212,7 @@ xdvrx1 included that license and
 the changes he made were also licensed under MIT.
 
 
-## INTRODUCTION TO C
+## Introduction To C
 ### Source Code
 ```
 #include <stdio.h> 
@@ -311,7 +311,7 @@ include this line at all. You might get
 a warning from the compiler but the program
 will compile and run normally.
 
-## DATA TYPES
+## Data Types
 ### Source Code
 ```
 #include <stdio.h>
@@ -428,7 +428,7 @@ Declare a 100-element array of single-precision floating point numbers:
 
 	float farray[100];
 	
-## FLOW CONTROL
+## Decision Making
 ### Source Code
 ```
 #include <stdio.h>
@@ -617,7 +617,7 @@ the `else` block, so it prints `i is 0`.
 After this, you can now easily grasp the idea
 of loops, where it automates things for you.	
 
-## LOOPS
+## Loops
 ### Source Code
 ```
 #include <stdio.h>
@@ -746,7 +746,7 @@ is that, in the given condition, `y` should be
 less than 100 to continue looping
 or else it should stop looping. Then why these loops ended at 108?
 
-## POINTERS
+## Pointers
 ### Source Code
 ```
 #include <stdio.h>
@@ -845,7 +845,7 @@ stored in a memory location:
   printf("After using \"*iPtr = 2;\", i is now %d\n", i);
 ```
 
-## FUNCTIONS
+## Functions
 ### Source Code
 ```
 #include <stdio.h>
@@ -1133,7 +1133,7 @@ using only the memory address of an array.
 
 So, pointers are truly essential to be an excellent C programmer.
 
-## STRUCTURE IN C
+## Structure In C
 ### Source Code
 ```
 #include <stdio.h>
@@ -1369,7 +1369,7 @@ It is commonly built upon a filesystem.
 Data will persist after the computer is turned off because data
 resides on persistent storage.
 
-## COMMAND LINE ARGUMENTS
+## Command Line Arguments
 ### Source Code
 ```
 #include <stdio.h>
@@ -1492,7 +1492,7 @@ will result to true and `myarg_float` will get the value
 from the third argument, that is at index 2, which is a float. 
 Conversion will be done through `atof`.
 
-## DYNAMIC MEMORY ALLOCATION USING ARRAYS
+## Dynamic Memory Allocation Using Arrays
 ### Source Code
 ```
 #include <stdio.h> // printf()
@@ -1601,7 +1601,7 @@ Failure to do so can lead to memory leaks.
    free(myDynamicArray);
 ```
 
-## FILE INPUT OUTPUT
+## File Input Output
 ### Source Code
 ```
 #include <stdio.h>
