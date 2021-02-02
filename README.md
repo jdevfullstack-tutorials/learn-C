@@ -1405,7 +1405,7 @@ int main(int argc, char **argv)
 ```
 
 ### Result
-![result](result.png)
+![result](screenshots/result.png)
 
 ### Details
 `#include <stdio.h>`, as we all know, is for `printf`.
@@ -1528,7 +1528,7 @@ int main(int argc, char **argv)
 ```
 
 ### Result
-![result](result.png)
+![result](screenshots/result2.png)
 
 ### Details
 Sometimes you can't predict the size
@@ -1644,7 +1644,7 @@ int main()
 ```
 
 ### Result
-![result](result.png)
+![result](screenshots/result3.png)
 
 ### Details
 #### Reading from a File
