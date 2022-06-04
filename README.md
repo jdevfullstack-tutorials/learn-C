@@ -50,7 +50,7 @@ The source codes that were mentioned
 in this tutorial can be downloaded from 
 this repository:
 
-<https://github.com/xdvrx1/C-Language-Tutorial>
+<https://github.com/jdevstatic/C-Language-Tutorial>
 
 or by clicking the `View on GitHub` button.
 
@@ -1716,6 +1716,6 @@ To demonstrate how C is used in writing
 computer programs, please visit this
 repository:
 
-<https://github.com/xdvrx1/CalC>
+<https://github.com/jdevstatic/CalC>
 
 Thanks a lot!
